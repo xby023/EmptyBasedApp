@@ -21,8 +21,6 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [[BizPayManager shareManager] makeRootViewControllerWithWindow:self.window];
     return YES;
-    
-    return YES;
 }
 
 
