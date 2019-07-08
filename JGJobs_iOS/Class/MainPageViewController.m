@@ -7,6 +7,7 @@
 //
 
 #import "MainPageViewController.h"
+#import "UIColor+themeColor.h"
 
 @interface MainPageViewController ()
 
@@ -17,8 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = RandColor;
-    
+    self.view.backgroundColor = [UIColor BColor];
     self.title = @"钱包";
     // Do any additional setup after loading the view.
 }

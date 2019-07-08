@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A13DF20D22D2F09A00C407D7 /* UIColor+themeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A13DF20C22D2F09A00C407D7 /* UIColor+themeColor.m */; };
 		A1AC020E216B069A00EDC59D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AC020D216B069A00EDC59D /* AppDelegate.m */; };
 		A1AC0214216B069A00EDC59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AC0212216B069A00EDC59D /* Main.storyboard */; };
 		A1AC0216216B069B00EDC59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AC0215216B069B00EDC59D /* Assets.xcassets */; };
@@ -140,6 +141,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A13DF20B22D2F09A00C407D7 /* UIColor+themeColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+themeColor.h"; sourceTree = "<group>"; };
+		A13DF20C22D2F09A00C407D7 /* UIColor+themeColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+themeColor.m"; sourceTree = "<group>"; };
 		A1AC0209216B069A00EDC59D /* JGJobs_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGJobs_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AC020C216B069A00EDC59D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1AC020D216B069A00EDC59D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -514,6 +517,8 @@
 				A1AC03D8216B0E4000EDC59D /* MinePageViewController.m */,
 				A1AC03DA216B23C600EDC59D /* LoginViewController.h */,
 				A1AC03DB216B23C600EDC59D /* LoginViewController.m */,
+				A13DF20B22D2F09A00C407D7 /* UIColor+themeColor.h */,
+				A13DF20C22D2F09A00C407D7 /* UIColor+themeColor.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -813,9 +818,9 @@
 			isa = PBXGroup;
 			children = (
 				A1AC02B9216B0A1500EDC59D /* QRCodeReaderView.h */,
+				A1AC02BC216B0A1500EDC59D /* QRCodeReaderView.m */,
 				A1AC02BA216B0A1500EDC59D /* scanscanBg.png */,
 				A1AC02BB216B0A1500EDC59D /* lightSelect.png */,
-				A1AC02BC216B0A1500EDC59D /* QRCodeReaderView.m */,
 				A1AC02BD216B0A1500EDC59D /* scanLine.png */,
 				A1AC02BE216B0A1500EDC59D /* lightNormal.png */,
 				A1AC02BF216B0A1500EDC59D /* noticeMusic.wav */,
@@ -1086,8 +1091,8 @@
 		A1AC0366216B0A4000EDC59D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				A1AC0369216B0A4000EDC59D /* WebTools.m */,
 				A1AC036B216B0A4000EDC59D /* WebTools.h */,
+				A1AC0369216B0A4000EDC59D /* WebTools.m */,
 				A1AC03D1216B0CD100EDC59D /* JGTools.h */,
 				A1AC03D2216B0CD100EDC59D /* JGTools.m */,
 			);
@@ -1367,6 +1372,7 @@
 				A1AC03A6216B0A4000EDC59D /* MPublicManager.m in Sources */,
 				A1AC03CF216B0A9B00EDC59D /* UserInfoModel.m in Sources */,
 				A1AC02D5216B0A1600EDC59D /* CBPhotoSelecterAssetSectionViewCell.m in Sources */,
+				A13DF20D22D2F09A00C407D7 /* UIColor+themeColor.m in Sources */,
 				A1AC03B8216B0A4100EDC59D /* NSData+CommonCrypto.m in Sources */,
 				A1AC02EB216B0A1600EDC59D /* CBPhotoBrowserScrollView+scrollViewDelegate.m in Sources */,
 				A1AC039D216B0A4000EDC59D /* XBYHandwrittenSignatureView.m in Sources */,
