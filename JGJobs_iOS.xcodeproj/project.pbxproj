@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A13DF20D22D2F09A00C407D7 /* UIColor+themeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A13DF20C22D2F09A00C407D7 /* UIColor+themeColor.m */; };
+		A13DF21022D30E5100C407D7 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = A13DF20F22D30E5100C407D7 /* NSString+URL.m */; };
+		A13DF21322D313E300C407D7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13DF21222D313E300C407D7 /* DetailViewController.m */; };
 		A1AC020E216B069A00EDC59D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AC020D216B069A00EDC59D /* AppDelegate.m */; };
 		A1AC0214216B069A00EDC59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AC0212216B069A00EDC59D /* Main.storyboard */; };
 		A1AC0216216B069B00EDC59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AC0215216B069B00EDC59D /* Assets.xcassets */; };
@@ -143,6 +145,10 @@
 /* Begin PBXFileReference section */
 		A13DF20B22D2F09A00C407D7 /* UIColor+themeColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+themeColor.h"; sourceTree = "<group>"; };
 		A13DF20C22D2F09A00C407D7 /* UIColor+themeColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+themeColor.m"; sourceTree = "<group>"; };
+		A13DF20E22D30E5100C407D7 /* NSString+URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
+		A13DF20F22D30E5100C407D7 /* NSString+URL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
+		A13DF21122D313E300C407D7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A13DF21222D313E300C407D7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		A1AC0209216B069A00EDC59D /* JGJobs_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGJobs_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AC020C216B069A00EDC59D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1AC020D216B069A00EDC59D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -519,6 +525,10 @@
 				A1AC03DB216B23C600EDC59D /* LoginViewController.m */,
 				A13DF20B22D2F09A00C407D7 /* UIColor+themeColor.h */,
 				A13DF20C22D2F09A00C407D7 /* UIColor+themeColor.m */,
+				A13DF20E22D30E5100C407D7 /* NSString+URL.h */,
+				A13DF20F22D30E5100C407D7 /* NSString+URL.m */,
+				A13DF21122D313E300C407D7 /* DetailViewController.h */,
+				A13DF21222D313E300C407D7 /* DetailViewController.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -1355,6 +1365,7 @@
 				A1AC0314216B0A1600EDC59D /* TAPageControl.m in Sources */,
 				A1AC02DD216B0A1600EDC59D /* CBPhotoSelecterAssetSectionView.m in Sources */,
 				A1AC0312216B0A1600EDC59D /* SDCollectionViewCell.m in Sources */,
+				A13DF21022D30E5100C407D7 /* NSString+URL.m in Sources */,
 				A1AC02D8216B0A1600EDC59D /* CBPhotoSelecterPermissionView.m in Sources */,
 				A1AC039E216B0A4000EDC59D /* CustomPlaceHolderTextView.m in Sources */,
 				A1AC03BC216B0A4100EDC59D /* BassCustomNAVViewController.m in Sources */,
@@ -1391,6 +1402,7 @@
 				A1AC0304216B0A1600EDC59D /* KafkaArrowHeader.m in Sources */,
 				A1AC0302216B0A1600EDC59D /* KafkaNativeHeader.m in Sources */,
 				A1AC038E216B0A4000EDC59D /* UIScrollView+XBYRefreshControl.m in Sources */,
+				A13DF21322D313E300C407D7 /* DetailViewController.m in Sources */,
 				A1AC02FE216B0A1600EDC59D /* KafkaNativeFooter.m in Sources */,
 				A1AC0315216B0A1600EDC59D /* TAAnimatedDotView.m in Sources */,
 				A1AC03A7216B0A4000EDC59D /* XBYProgressHUD.m in Sources */,

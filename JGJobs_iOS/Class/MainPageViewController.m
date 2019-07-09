@@ -8,7 +8,9 @@
 
 #import "MainPageViewController.h"
 #import "UIColor+themeColor.h"
+#import "NSString+URL.h"
 
+#import "DetailViewController.h"
 @interface MainPageViewController ()
 
 @end
@@ -20,22 +22,12 @@
     
     self.view.backgroundColor = [UIColor BColor];
     self.title = @"钱包";
-    // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    DetailViewController *detailVC = [[DetailViewController alloc]init];
+    self.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:detailVC animated:YES];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
