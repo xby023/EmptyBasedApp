@@ -195,7 +195,7 @@
     labIntroudction.backgroundColor = [UIColor clearColor];
     labIntroudction.frame=CGRectMake(0, (DeviceMaxHeight-200*widthRate)/2 - 50 + 200*widthRate + 20, DeviceMaxWidth, 20);
     labIntroudction.textAlignment = NSTextAlignmentCenter;
-    labIntroudction.font = [UIFont pingFangRegularFontOfSize:13];
+    labIntroudction.font = [UIFont systemFontOfSize:13];
     labIntroudction.textColor = [UIColor whiteColor];
     labIntroudction.text=@"将二维码放入框内，即可自动扫码.";
     [upView addSubview:labIntroudction];
@@ -253,11 +253,11 @@
             [device lockForConfiguration:nil];
             if (on) {
                 [device setTorchMode:AVCaptureTorchModeOn];
-                [device setFlashMode:AVCaptureFlashModeOn];
+//                [device setFlashMode:AVCaptureFlashModeOn];
                 
             } else {
                 [device setTorchMode:AVCaptureTorchModeOff];
-                [device setFlashMode:AVCaptureFlashModeOff];
+//                [device setFlashMode:AVCaptureFlashModeOff];
             }
             [device unlockForConfiguration];
         }
@@ -268,14 +268,6 @@
 {
     
     CGFloat x,y,width,height;
-    
-//    width = (CGFloat)(rect.size.height+10)/readerViewBounds.size.height;
-//    
-//    height = (CGFloat)(rect.size.width-50)/readerViewBounds.size.width;
-//    
-//    x = (1-width)/2;
-//    y = (1-height)/2;
-    
     x = (CGRectGetHeight(readerViewBounds)-CGRectGetHeight(rect))/2/CGRectGetHeight(readerViewBounds);
     y = (CGRectGetWidth(readerViewBounds)-CGRectGetWidth(rect))/2/CGRectGetWidth(readerViewBounds);
     width = CGRectGetHeight(rect)/CGRectGetHeight(readerViewBounds);

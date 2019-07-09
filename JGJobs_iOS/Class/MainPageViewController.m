@@ -25,9 +25,9 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    DetailViewController *detailVC = [[DetailViewController alloc]init];
-    self.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:detailVC animated:YES];
+//    DetailViewController *detailVC = [[DetailViewController alloc]init];
+//    self.hidesBottomBarWhenPushed = YES;
+//    [self.navigationController pushViewController:detailVC animated:YES];
 }
 
 @end
